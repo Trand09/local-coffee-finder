@@ -1,0 +1,60 @@
+/* CSS Variables */
+:root {
+  --primary: chocolate;
+  --secondary: whitesmoke;
+}
+
+/* HTML Selectors */
+body {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+/* ID selectors */
+#map {
+  height: 600px;
+  width: 900px;
+  margin-bottom: 25px;
+}
+
+#shoppic {
+  opacity: 0.5;
+}
+
+#cardbg {
+  background-color: var(--secondary);
+}
+
+#search-address {
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+}
+
+#modal {
+  width: 20em;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--primary);
+  border: none;
+  color: var(--secondary);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 12px;
+}
+
+#searchbox {
+  padding-bottom: 3em;
+}
+
+#search-icon {
+  padding-right: 4.5em;
+}
